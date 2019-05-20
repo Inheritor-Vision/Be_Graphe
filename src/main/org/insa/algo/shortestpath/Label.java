@@ -5,26 +5,27 @@ import java.util.* ;
 
 
 public class Label implements Comparable<Label>{
+	static Node idDest;
 	private int sommet_Courant; 
 	private boolean marque;
-	private float cout;
+	protected double cout;
 	private Arc arc_Pere;
 	
-	public Label(int sc, boolean m, float c) {
+	public Label(int sc, boolean m, double c) {
 		this.sommet_Courant = sc;
 		this.marque = m;
 		this.cout = c;
 		this.arc_Pere = null;
 	}
 	
-	public Label(int sc, boolean m, float c, Arc Popa) {
+	public Label(int sc, boolean m, double c, Arc Popa) {
 		this.sommet_Courant = sc;
 		this.marque = m;
 		this.cout = c;
 		this.arc_Pere = Popa;
 	}
 	
-	public float getCost() {
+	public double getCost() {
 		return this.cout;
 	}
 	
@@ -53,5 +54,8 @@ public class Label implements Comparable<Label>{
 	public Arc getArc() {
 		return this.arc_Pere;
 	}
-
+	
+	public double getTotalCost() {
+		return this.getCost();
+	}
 }

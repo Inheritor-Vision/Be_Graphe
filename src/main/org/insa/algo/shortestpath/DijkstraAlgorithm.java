@@ -29,6 +29,12 @@ public class DijkstraAlgorithm extends ShortestPathAlgorithm {
 	        double ini = 0;
 	        List<Arc> fils ;
 	        Label.idDest = data.getDestination();
+	        Label.mode = data.getMode();
+	        if(data.getMaximumSpeed() == GraphStatistics.NO_MAXIMUM_SPEED) {
+	        	Label.ms = data.getGraph().getGraphInformation().getMaximumSpeed();
+	        }else {
+	        	Label.ms = data.getMaximumSpeed();
+	        }
 	        Arc arc;
 	        BinaryHeap<Label> tas = new BinaryHeap<Label>() ;
 	        Label auxi = this.createLabel(data.getOrigin().getId(),false,ini, data.getOrigin());
@@ -77,6 +83,7 @@ public class DijkstraAlgorithm extends ShortestPathAlgorithm {
 	        		}
 	        	}
 	        }
+	       
 	        if(tas.isEmpty() == true && !trouve) {
 	        	solution = new ShortestPathSolution(data, Status.INFEASIBLE);
 	        }else {

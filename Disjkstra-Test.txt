@@ -1,0 +1,17 @@
+Test Optimalite: 
+
+	Map: Toulouse 
+	Bellman-Ford: Found a path from node #10307 to node #6226, 8,2670 kilometers in 2 seconds.
+	Disjkstra: Found a path from node #10307 to node #6226, 8,2670 kilometers in 0 seconds.
+	A*: Found a path from node #10307 to node #6226, 8,2670 kilometers in 0 seconds.
+
+	Map: Toulouse 
+	Bellman-Ford: Found a path from node #20371 to node #10512, 15,3456 kilometers in 1 seconds.
+	Disjkstra: Found a path from node #20371 to node #10512, 15,3456 kilometers in 0 seconds.
+	A*: Found a path from node #20371 to node #10512, 15,3456 kilometers in 0 seconds.
+
+	Map: Belgium 
+	Bellman-Ford: Found a path from node #863405 to node #922661, 143,0880 minutes in 126 seconds.
+	Disjkstra: Found a path from node #863405 to node #922661, 143,0880 minutes in 1 seconds.
+	A*: Found a path from node #863405 to node #922661, 143,0880 minutes in 30 seconds.
+

@@ -1,6 +1,7 @@
 package org.insa.algo.shortestpath;
 
 import org.insa.graph.Arc;
+import org.insa.algo.AbstractInputData.Mode;
 import org.insa.graph.*;
 
 public class LabelStar extends Label {
@@ -21,7 +22,11 @@ public class LabelStar extends Label {
 	}
 	
 	public double getTotalCost() {
-		return this.cout + idDest.getPoint().distanceTo(this.nodeCourant.getPoint());
+		if(this.mode == Mode.LENGTH) {
+			return this.cout + idDest.getPoint().distanceTo(this.nodeCourant.getPoint());
+		}else {
+			return this.cout + idDest.getPoint().distanceTo(this.nodeCourant.getPoint())/ms;
+		}
 	}
 	
 	@Override

@@ -4,8 +4,10 @@ import org.insa.algo.*;
 
 import org.insa.algo.AbstractSolution.Status;
 import org.insa.algo.shortestpath.DijkstraAlgorithm;
+import org.insa.algo.shortestpath.AStarAlgorithm;
 import org.insa.algo.shortestpath.BellmanFordAlgorithm;
 import org.insa.algo.shortestpath.ShortestPathData;
+import org.insa.algo.shortestpath.ShortestPathSolution;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -13,7 +15,9 @@ import static org.junit.Assert.assertTrue;
 
 import java.io.BufferedInputStream;
 import java.io.DataInputStream;
+import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -27,24 +31,34 @@ import org.junit.Test;
 public class DijkstraTest {
 
     // Small graph use for tests
-    private static Graph graph, graph2;
+    private static Graph graph, graph2, graph3;
     
-    private static DijkstraAlgorithm algo1, algo2, algo4;
+    private static DijkstraAlgorithm DA1, DA2, DA3,DA4 , DA5, DA6, DA7;
     
-    private static BellmanFordAlgorithm algo3 ;
+    private static BellmanFordAlgorithm BFA1,BFA2,BFA3, BFA4 , BFA5;
+    
+    private static AStarAlgorithm ASA1,ASA2, ASA3, ASA4, ASA5;
     
     @BeforeClass
     public static void initAll() throws IOException {
+    	
+    	
+    	
+
+    	
+
+    	
+    	
     	String mapName = "/home/commetud/3eme Annee MIC/Graphes-et-Algorithmes/Maps/french-polynesia.mapgr" ;
     	GraphReader reader = new BinaryGraphReader(
                 new DataInputStream(new BufferedInputStream(new FileInputStream(mapName))));
     	graph = reader.read();
     	
     	ShortestPathData spd1 = new ShortestPathData(DijkstraTest.graph,DijkstraTest.graph.get(8141), DijkstraTest.graph.get(8601), ArcInspectorFactory.getAllFilters().get(0));
-    	algo1 = new DijkstraAlgorithm(spd1);
+    	DA1 = new DijkstraAlgorithm(spd1);
     	
     	ShortestPathData spd2 = new ShortestPathData(DijkstraTest.graph,DijkstraTest.graph.get(8141), DijkstraTest.graph.get(8141), ArcInspectorFactory.getAllFilters().get(0));
-    	algo2 = new DijkstraAlgorithm(spd2);
+    	DA2 = new DijkstraAlgorithm(spd2);
     	
     	String mapName2 = "/home/commetud/3eme Annee MIC/Graphes-et-Algorithmes/Maps/toulouse.mapgr" ;
     	GraphReader reader2 = new BinaryGraphReader(
@@ -53,24 +67,114 @@ public class DijkstraTest {
     	
     	//10307 6097
     	ShortestPathData spd3 = new ShortestPathData(DijkstraTest.graph2, DijkstraTest.graph2.get(10307), DijkstraTest.graph2.get(6226), ArcInspectorFactory.getAllFilters().get(0)) ;
-    	algo3 = new BellmanFordAlgorithm(spd3) ;
+    	BFA1 = new BellmanFordAlgorithm(spd3) ;
+    	DA3 = new DijkstraAlgorithm(spd3);
+    	ASA1 = new AStarAlgorithm(spd3);
     	
-    	algo4 = new DijkstraAlgorithm(spd3);
+    	ShortestPathData spd4 = new ShortestPathData(DijkstraTest.graph2, DijkstraTest.graph2.get(20371), DijkstraTest.graph2.get(10512), ArcInspectorFactory.getAllFilters().get(0)) ;
+    	BFA2 = new BellmanFordAlgorithm(spd4) ;
+    	DA4 = new DijkstraAlgorithm(spd4);
+    	ASA2 = new AStarAlgorithm(spd4);
     	
+    	String mapName3 = "/home/commetud/3eme Annee MIC/Graphes-et-Algorithmes/Maps/carre-dense.mapgr" ;
+    	GraphReader reader3 = new BinaryGraphReader(
+                new DataInputStream(new BufferedInputStream(new FileInputStream(mapName3))));
+    	graph2 = reader3.read();
+    	ShortestPathData spd5 = new ShortestPathData(DijkstraTest.graph2, DijkstraTest.graph2.get(157630), DijkstraTest.graph2.get(190456), ArcInspectorFactory.getAllFilters().get(0)) ;
+    	BFA3 = new BellmanFordAlgorithm(spd5) ;
+    	DA5 = new DijkstraAlgorithm(spd5);
+    	ASA3 = new AStarAlgorithm(spd5);
+    	
+    	mapName3 = "/home/commetud/3eme Annee MIC/Graphes-et-Algorithmes/Maps/belgium.mapgr" ;
+    	reader3 = new BinaryGraphReader(
+                new DataInputStream(new BufferedInputStream(new FileInputStream(mapName3))));
+    	graph2 = reader3.read();
+    	spd5 = new ShortestPathData(DijkstraTest.graph2, DijkstraTest.graph2.get(863405), DijkstraTest.graph2.get(922661), ArcInspectorFactory.getAllFilters().get(0)) ;
+    	BFA4 = new BellmanFordAlgorithm(spd5) ;
+    	DA6 = new DijkstraAlgorithm(spd5);
+    	ASA4 = new AStarAlgorithm(spd5);
+    	
+    	spd5 = new ShortestPathData(DijkstraTest.graph2, DijkstraTest.graph2.get(863405), DijkstraTest.graph2.get(922661), ArcInspectorFactory.getAllFilters().get(2)) ;
+    	BFA5 = new BellmanFordAlgorithm(spd5) ;
+    	DA7 = new DijkstraAlgorithm(spd5);
+    	ASA5 = new AStarAlgorithm(spd5);
     }
     @Test
     public void testFeasibility() {
-    	assertEquals(Status.INFEASIBLE, algo1.run().getStatus());
+    	
+    	assertEquals(Status.INFEASIBLE, DA1.run().getStatus());
     }
     
     @Test
     public void testNullCost() {
-    	assertEquals(Status.OPTIMAL, algo2.run().getStatus());
+    	assertEquals(Status.OPTIMAL, DA2.run().getStatus());
     }
     
     @Test
-    public void testOpti() {
-    	assertEquals(algo3.run().getPath().getLength(), algo4.run().getPath().getLength(), 1) ;
+    public void testOpti() throws IOException{
+    	File fil = new File("Disjkstra-Test.txt");
+    	if(fil.exists()) {
+    		fil.delete();
+    		try {
+    			fil.createNewFile();
+    		}catch(IOException e) {
+    			e.printStackTrace();
+    		}
+    	}
+    	
+    	FileWriter writer = new FileWriter(fil,true);
+    	ShortestPathSolution sphDA = DA3.run();
+    	ShortestPathSolution sphBFA = BFA1.run();
+    	ShortestPathSolution sphASA = ASA1.run();
+    	writer.write("Test Optimalite: \n\n\tMap: Toulouse \n");
+    	writer.write("\tBellman-Ford: "+sphBFA +"\n");
+    	writer.write("\tDisjkstra: " + sphDA+"\n");
+    	writer.write("\tA*: " + sphASA+"\n\n");
+    	assertEquals(sphDA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
+    	assertEquals(sphASA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
+    
+    	sphDA = DA4.run();
+    	sphBFA = BFA2.run();
+    	sphASA = ASA2.run();
+    	writer.write("\tMap: Toulouse \n");
+    	writer.write("\tBellman-Ford: "+sphBFA +"\n");
+    	writer.write("\tDisjkstra: " + sphDA+"\n");
+    	writer.write("\tA*: " + sphASA+"\n\n");
+    	assertEquals(sphDA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
+    	assertEquals(sphASA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
+    
+    	/*sphDA = DA5.run();
+    	sphBFA = BFA3.run();
+    	sphASA = ASA3.run();
+    	writer.write("\tMap: Carre Dense \n");		
+    	writer.write("\tBellman-Ford: "+sphBFA +"\n");
+    	writer.write("\tDisjkstra: " + sphDA+"\n");
+    	writer.write("\tA*: " + sphASA+"\n\n");
+    	assertEquals(sphDA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
+    	assertEquals(sphASA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
+    	*/
+    	/*sphDA = DA6.run();
+    	sphBFA = BFA4.run();
+    	sphASA = ASA4.run();
+    	writer.write("\tMap: Belgium \n");
+    	writer.write("\tBellman-Ford: "+sphBFA +"\n");
+    	writer.write("\tDisjkstra: " + sphDA+"\n");
+    	writer.write("\tA*: " + sphASA+"\n\n");
+    	assertEquals(sphDA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
+    	assertEquals(sphASA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
+    	*/
+    	
+    	sphDA = DA7.run();
+    	sphBFA = BFA5.run();
+    	sphASA = ASA5.run();
+    	writer.write("\tMap: Belgium \n");
+    	writer.write("\tBellman-Ford: "+sphBFA +"\n");
+    	writer.write("\tDisjkstra: " + sphDA+"\n");
+    	writer.write("\tA*: " + sphASA+"\n\n");
+    	assertEquals(sphDA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
+    	assertEquals(sphASA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
+    	writer.close();
+    
     }
     
 

@@ -1,11 +1,14 @@
 package org.insa.algo.shortestpath;
 import org.insa.graph.Node;
+import org.insa.algo.AbstractInputData.Mode;
 import org.insa.graph.Arc ;
 import java.util.* ;
 
 
 public class Label implements Comparable<Label>{
 	static Node idDest;
+	static Mode mode;
+	static int ms;
 	private int sommet_Courant; 
 	private boolean marque;
 	protected double cout;

@@ -5,7 +5,9 @@ import java.util.* ;
 import org.insa.graph.* ;
 
 public class DijkstraAlgorithm extends ShortestPathAlgorithm {
-
+	
+	public int marques = 0;
+	public int explores = 0;
     public DijkstraAlgorithm(ShortestPathData data) {
         super(data);
     }
@@ -35,6 +37,7 @@ public class DijkstraAlgorithm extends ShortestPathAlgorithm {
 	        }else {
 	        	Label.ms = data.getMaximumSpeed();
 	        }
+	        
 	        Arc arc;
 	        BinaryHeap<Label> tas = new BinaryHeap<Label>() ;
 	        Label auxi = this.createLabel(data.getOrigin().getId(),false,ini, data.getOrigin());
@@ -49,6 +52,7 @@ public class DijkstraAlgorithm extends ShortestPathAlgorithm {
 	        	occi = tas.deleteMin();
 	        	this.notifyNodeMarked(graph.get(occi.getSommet())) ;
 	        	Dijkstra.get(occi.getSommet()).setMarque(true);
+	        	marques ++;
 	        	fils = graph.get(occi.getSommet()).getSuccessors();
 	        	Iterator<Arc> iter = fils.iterator() ;
 	        	if(data.getOrigin() == graph.get(occi.getSommet())) {
@@ -61,6 +65,7 @@ public class DijkstraAlgorithm extends ShortestPathAlgorithm {
                     }
 		        	ini = Dijkstra.get(arc.getOrigin().getId()).getCost() + data.getCost(arc) ;
 		        	if(Dijkstra.get(arc.getDestination().getId()) == null) {
+		        		explores ++;
 		        		this.notifyNodeReached(graph.get(arc.getDestination().getId()));
 		        		auxi = this.createLabel(arc.getDestination().getId(), false, ini, arc, arc.getDestination());
 		        		Dijkstra.set(arc.getDestination().getId(), auxi) ;

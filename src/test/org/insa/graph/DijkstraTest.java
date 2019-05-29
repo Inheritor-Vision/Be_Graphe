@@ -43,12 +43,6 @@ public class DijkstraTest {
     public static void initAll() throws IOException {
     	
     	
-    	
-
-    	
-
-    	
-    	
     	String mapName = "/home/commetud/3eme Annee MIC/Graphes-et-Algorithmes/Maps/french-polynesia.mapgr" ;
     	GraphReader reader = new BinaryGraphReader(
                 new DataInputStream(new BufferedInputStream(new FileInputStream(mapName))));
@@ -112,7 +106,7 @@ public class DijkstraTest {
     
     @Test
     public void testOpti() throws IOException{
-    	File fil = new File("Disjkstra-Test.txt");
+    	File fil = new File("Belgium-Test-LENGTH.txt");
     	if(fil.exists()) {
     		fil.delete();
     		try {
@@ -124,56 +118,151 @@ public class DijkstraTest {
     	
     	FileWriter writer = new FileWriter(fil,true);
     	ShortestPathSolution sphDA = DA3.run();
-    	ShortestPathSolution sphBFA = BFA1.run();
     	ShortestPathSolution sphASA = ASA1.run();
     	writer.write("Test Optimalite: \n\n\tMap: Toulouse \n");
-    	writer.write("\tBellman-Ford: "+sphBFA +"\n");
     	writer.write("\tDisjkstra: " + sphDA+"\n");
     	writer.write("\tA*: " + sphASA+"\n\n");
-    	assertEquals(sphDA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
-    	assertEquals(sphASA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
+
     
     	sphDA = DA4.run();
-    	sphBFA = BFA2.run();
     	sphASA = ASA2.run();
     	writer.write("\tMap: Toulouse \n");
-    	writer.write("\tBellman-Ford: "+sphBFA +"\n");
     	writer.write("\tDisjkstra: " + sphDA+"\n");
     	writer.write("\tA*: " + sphASA+"\n\n");
-    	assertEquals(sphDA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
-    	assertEquals(sphASA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
+
     
-    	/*sphDA = DA5.run();
-    	sphBFA = BFA3.run();
-    	sphASA = ASA3.run();
-    	writer.write("\tMap: Carre Dense \n");		
-    	writer.write("\tBellman-Ford: "+sphBFA +"\n");
-    	writer.write("\tDisjkstra: " + sphDA+"\n");
-    	writer.write("\tA*: " + sphASA+"\n\n");
-    	assertEquals(sphDA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
-    	assertEquals(sphASA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
-    	*/
-    	/*sphDA = DA6.run();
-    	sphBFA = BFA4.run();
-    	sphASA = ASA4.run();
-    	writer.write("\tMap: Belgium \n");
-    	writer.write("\tBellman-Ford: "+sphBFA +"\n");
-    	writer.write("\tDisjkstra: " + sphDA+"\n");
-    	writer.write("\tA*: " + sphASA+"\n\n");
-    	assertEquals(sphDA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
-    	assertEquals(sphASA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
-    	*/
-    	
+
     	sphDA = DA7.run();
-    	sphBFA = BFA5.run();
     	sphASA = ASA5.run();
     	writer.write("\tMap: Belgium \n");
-    	writer.write("\tBellman-Ford: "+sphBFA +"\n");
     	writer.write("\tDisjkstra: " + sphDA+"\n");
     	writer.write("\tA*: " + sphASA+"\n\n");
-    	assertEquals(sphDA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
-    	assertEquals(sphASA.getPath().getLength(), sphBFA.getPath().getLength(), 1) ;
+    	
+    	String mapNameF = "/home/commetud/3eme Annee MIC/Graphes-et-Algorithmes/Maps/belgium.mapgr" ;
+    	GraphReader readerF = new BinaryGraphReader(
+                new DataInputStream(new BufferedInputStream(new FileInputStream(mapNameF))));
+    	Graph graphF = readerF.read();
+    	
+    	
+    	DijkstraAlgorithm DAF;
+    	AStarAlgorithm ASAF;
+    	ShortestPathData spdf ;
+    	int start = 384731;
+    	int end = 681851;
+
+    	for (int x = 0; x < 38;  x+=1) {  		
+    		spdf = new ShortestPathData(graphF, graphF.get(start +x), graphF.get(end + x), ArcInspectorFactory.getAllFilters().get(0)) ;
+    		DAF = new DijkstraAlgorithm(spdf);
+    		ASAF = new AStarAlgorithm(spdf);
+    		sphDA = DAF.run();
+    		sphASA = ASAF.run();
+    		writer.write("\tMap: Belgium \n");
+        	writer.write("\tDisjkstra: " + sphDA + "\n");
+        	writer.write("Nodes explorés: " + DAF.explores + "\n");
+        	writer.write("Nodes marqués: " + DAF.marques + "\n");
+        	writer.write("\tA*: " + sphASA+"\n");
+        	writer.write("Nodes explorés: " + ASAF.explores + "\n");
+        	writer.write("Nodes marqués: " + ASAF.marques + "\n\n");
+        	
+    		
+    	}
     	writer.close();
+    	
+    	fil = new File("Belgium-Test-TIME.txt");
+    	if(fil.exists()) {
+    		fil.delete();
+    		try {
+    			fil.createNewFile();
+    		}catch(IOException e) {
+    			e.printStackTrace();
+    		}
+    	}
+    	
+    	writer = new FileWriter(fil,true);
+    	for (int x = 0; x < 38;  x+=1) {  		
+    		spdf = new ShortestPathData(graphF, graphF.get(start +x), graphF.get(end + x), ArcInspectorFactory.getAllFilters().get(2)) ;
+    		DAF = new DijkstraAlgorithm(spdf);
+    		ASAF = new AStarAlgorithm(spdf);
+    		sphDA = DAF.run();
+    		sphASA = ASAF.run();
+    		writer.write("\tMap: Belgium \n");
+        	writer.write("\tDisjkstra: " + sphDA + "\n");
+        	writer.write("Nodes explorés: " + DAF.explores + "\n");
+        	writer.write("Nodes marqués: " + DAF.marques + "\n");
+        	writer.write("\tA*: " + sphASA+"\n");
+        	writer.write("Nodes explorés: " + ASAF.explores + "\n");
+        	writer.write("Nodes marqués: " + ASAF.marques + "\n\n");
+        	
+    		
+    	}
+    	writer.close();
+
+    	mapNameF = "/home/commetud/3eme Annee MIC/Graphes-et-Algorithmes/Maps/midi-pyrenees.mapgr" ;
+    	readerF = new BinaryGraphReader(
+                new DataInputStream(new BufferedInputStream(new FileInputStream(mapNameF))));
+    	graphF = readerF.read();
+    	
+    	start = 261818;
+    	end = 418999;
+    	fil = new File("Midi-Pyrenee-Test-LENGTH.txt");
+    	if(fil.exists()) {
+    		fil.delete();
+    		try {
+    			fil.createNewFile();
+    		}catch(IOException e) {
+    			e.printStackTrace();
+    		}
+    	}
+    	
+    	writer = new FileWriter(fil,true);
+    			;
+    	for (int x = 0; x < 38;  x+=1) {  
+    		spdf = new ShortestPathData(graphF, graphF.get(start +x), graphF.get(end + x), ArcInspectorFactory.getAllFilters().get(0)) ;
+    		DAF = new DijkstraAlgorithm(spdf);
+    		ASAF = new AStarAlgorithm(spdf);
+    		sphDA = DAF.run();
+    		sphASA = ASAF.run();
+    		writer.write("\tMap: Midi-Pyrénées \n");
+        	writer.write("\tDisjkstra: " + sphDA + "\n");
+        	writer.write("Nodes explorés: " + DAF.explores + "\n");
+        	writer.write("Nodes marqués: " + DAF.marques + "\n");
+        	writer.write("\tA*: " + sphASA+"\n");
+        	writer.write("Nodes explorés: " + ASAF.explores + "\n");
+        	writer.write("Nodes marqués: " + ASAF.marques + "\n\n");
+    	}
+    	
+    	writer.close();
+    	
+    	fil = new File("Midi-Pyrenee-Test-TIME.txt");
+    	if(fil.exists()) {
+    		fil.delete();
+    		try {
+    			fil.createNewFile();
+    		}catch(IOException e) {
+    			e.printStackTrace();
+    		}
+    	}
+    	
+    	writer = new FileWriter(fil,true);
+    	for (int x = 0; x < 38;  x+=1) {  
+    		spdf = new ShortestPathData(graphF, graphF.get(start +x), graphF.get(end + x), ArcInspectorFactory.getAllFilters().get(2)) ;
+    		DAF = new DijkstraAlgorithm(spdf);
+    		ASAF = new AStarAlgorithm(spdf);
+    		sphDA = DAF.run();
+    		sphASA = ASAF.run();
+    		writer.write("\tMap: Midi-Pyrénées \n");
+        	writer.write("\tDisjkstra: " + sphDA + "\n");
+        	writer.write("Nodes explorés: " + DAF.explores + "\n");
+        	writer.write("Nodes marqués: " + DAF.marques + "\n");
+        	writer.write("\tA*: " + sphASA+"\n");
+        	writer.write("Nodes explorés: " + ASAF.explores + "\n");
+        	writer.write("Nodes marqués: " + ASAF.marques + "\n\n");
+    	}
+    	
+    	writer.close();
+    	
+    	
+    	
     
     }
     

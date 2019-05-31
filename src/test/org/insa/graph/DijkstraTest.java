@@ -121,15 +121,17 @@ public class DijkstraTest {
     	ShortestPathSolution sphASA = ASA1.run();
     	writer.write("Test Optimalite: \n\n\tMap: Toulouse \n");
     	writer.write("\tDisjkstra: " + sphDA+"\n");
-    	writer.write("\tA*: " + sphASA+"\n\n");
-
+    	writer.write("Duree: " + DA3.tempsFin+ "\n");
+    	writer.write("\tA*: " + sphASA+"\n");
+    	writer.write("Duree: " + ASA1.tempsFin+ "\n\n");
     
     	sphDA = DA4.run();
     	sphASA = ASA2.run();
     	writer.write("\tMap: Toulouse \n");
     	writer.write("\tDisjkstra: " + sphDA+"\n");
-    	writer.write("\tA*: " + sphASA+"\n\n");
-
+    	writer.write("Duree: " + DA4.tempsFin+ "\n");
+    	writer.write("\tA*: " + sphASA+"\n");
+    	writer.write("Duree: " + ASA2.tempsFin+ "\n\n");
     
 
     	sphDA = DA7.run();
@@ -160,9 +162,11 @@ public class DijkstraTest {
         	writer.write("\tDisjkstra: " + sphDA + "\n");
         	writer.write("Nodes explorés: " + DAF.explores + "\n");
         	writer.write("Nodes marqués: " + DAF.marques + "\n");
+        	writer.write("Duree: " + DAF.tempsFin+ "\n");
         	writer.write("\tA*: " + sphASA+"\n");
         	writer.write("Nodes explorés: " + ASAF.explores + "\n");
-        	writer.write("Nodes marqués: " + ASAF.marques + "\n\n");
+        	writer.write("Nodes marqués: " + ASAF.marques + "\n");
+        	writer.write("Duree: " + ASAF.tempsFin+ "\n\n");
         	
     		
     	}
@@ -189,9 +193,11 @@ public class DijkstraTest {
         	writer.write("\tDisjkstra: " + sphDA + "\n");
         	writer.write("Nodes explorés: " + DAF.explores + "\n");
         	writer.write("Nodes marqués: " + DAF.marques + "\n");
+        	writer.write("Duree: " + DAF.tempsFin+ "\n");
         	writer.write("\tA*: " + sphASA+"\n");
         	writer.write("Nodes explorés: " + ASAF.explores + "\n");
-        	writer.write("Nodes marqués: " + ASAF.marques + "\n\n");
+        	writer.write("Nodes marqués: " + ASAF.marques + "\n");
+        	writer.write("Duree: " + ASAF.tempsFin+ "\n\n");
         	
     		
     	}
@@ -226,9 +232,11 @@ public class DijkstraTest {
         	writer.write("\tDisjkstra: " + sphDA + "\n");
         	writer.write("Nodes explorés: " + DAF.explores + "\n");
         	writer.write("Nodes marqués: " + DAF.marques + "\n");
+        	writer.write("Duree: " + DAF.tempsFin+ "\n");
         	writer.write("\tA*: " + sphASA+"\n");
         	writer.write("Nodes explorés: " + ASAF.explores + "\n");
-        	writer.write("Nodes marqués: " + ASAF.marques + "\n\n");
+        	writer.write("Nodes marqués: " + ASAF.marques + "\n");
+        	writer.write("Duree: " + ASAF.tempsFin+ "\n\n");
     	}
     	
     	writer.close();
@@ -254,9 +262,11 @@ public class DijkstraTest {
         	writer.write("\tDisjkstra: " + sphDA + "\n");
         	writer.write("Nodes explorés: " + DAF.explores + "\n");
         	writer.write("Nodes marqués: " + DAF.marques + "\n");
+        	writer.write("Duree: " + DAF.tempsFin+ "\n");
         	writer.write("\tA*: " + sphASA+"\n");
         	writer.write("Nodes explorés: " + ASAF.explores + "\n");
-        	writer.write("Nodes marqués: " + ASAF.marques + "\n\n");
+        	writer.write("Nodes marqués: " + ASAF.marques + "\n");
+        	writer.write("Duree: " + ASAF.tempsFin+ "\n\n");
     	}
     	
     	writer.close();

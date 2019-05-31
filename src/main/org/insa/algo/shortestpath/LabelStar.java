@@ -7,6 +7,7 @@ import org.insa.graph.*;
 public class LabelStar extends Label {
 	
 	private Node nodeCourant;
+	private double heuri;
 	
 	
 	
@@ -14,18 +15,33 @@ public class LabelStar extends Label {
 		// TODO Auto-generated constructor stub
 		super(sc,m,c);
 		this.nodeCourant = n ;
+		if(LabelStar.mode == Mode.LENGTH) {
+			this.heuri = idDest.getPoint().distanceTo(this.nodeCourant.getPoint());
+		}else {
+			this.heuri = idDest.getPoint().distanceTo(this.nodeCourant.getPoint())*3.6/ms;
+		}
 	}
 	
 	public LabelStar(int sc, boolean m, double c, Arc Popa, Node n) {
 		super(sc,m,c,Popa);
 		this.nodeCourant = n ;
+		
+		if(LabelStar.mode == Mode.LENGTH) {
+			this.heuri = idDest.getPoint().distanceTo(this.nodeCourant.getPoint());
+		}else {
+			this.heuri = idDest.getPoint().distanceTo(this.nodeCourant.getPoint())*3.6/ms;
+		}
+		
 	}
 	
 	public double getTotalCost() {
-		if(this.mode == Mode.LENGTH) {
-			return this.cout + idDest.getPoint().distanceTo(this.nodeCourant.getPoint());
+		
+		if(LabelStar.mode == Mode.LENGTH) {
+			//System.out.println("Node: " + nodeCourant.getId() + " Cout: " + this.cout + " Heuristique: " + (idDest.getPoint().distanceTo(this.nodeCourant.getPoint())));
+			return this.cout + this.heuri;
 		}else {
-			return this.cout + idDest.getPoint().distanceTo(this.nodeCourant.getPoint())/ms;
+			//System.out.println("Node: " + nodeCourant.getId() + " Cout: " + this.cout + " Heuristique: " + (idDest.getPoint().distanceTo(this.nodeCourant.getPoint())*3.6/ms));
+			return this.cout + this.heuri;
 		}
 	}
 	

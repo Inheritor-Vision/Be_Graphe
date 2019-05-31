@@ -2,303 +2,379 @@
 	Disjkstra: Found a path from node #261818 to node #418999, 179,5208 minutes in 0 seconds.
 Nodes explorés: 591842
 Nodes marqués: 590996
-	A*: Found a path from node #261818 to node #418999, 179,5208 minutes in 17 seconds.
-Nodes explorés: 578185
-Nodes marqués: 576932
+Duree: 435
+	A*: Found a path from node #261818 to node #418999, 179,5208 minutes in 0 seconds.
+Nodes explorés: 439977
+Nodes marqués: 437243
+Duree: 755
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261819 to node #419000, 173,2749 minutes in 0 seconds.
 Nodes explorés: 592509
 Nodes marqués: 591676
-	A*: Found a path from node #261819 to node #419000, 173,2749 minutes in 17 seconds.
-Nodes explorés: 578884
-Nodes marqués: 577644
+Duree: 414
+	A*: Found a path from node #261819 to node #419000, 173,2749 minutes in 0 seconds.
+Nodes explorés: 421857
+Nodes marqués: 419226
+Duree: 675
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261820 to node #419001, 174,4880 minutes in 0 seconds.
 Nodes explorés: 594831
 Nodes marqués: 594050
-	A*: Found a path from node #261820 to node #419001, 174,4880 minutes in 18 seconds.
-Nodes explorés: 583158
-Nodes marqués: 581989
+Duree: 432
+	A*: Found a path from node #261820 to node #419001, 174,4880 minutes in 0 seconds.
+Nodes explorés: 428448
+Nodes marqués: 425911
+Duree: 739
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261821 to node #419002, 174,7968 minutes in 0 seconds.
 Nodes explorés: 593999
 Nodes marqués: 593193
-	A*: Found a path from node #261821 to node #419002, 174,7968 minutes in 17 seconds.
-Nodes explorés: 581866
-Nodes marqués: 580659
+Duree: 426
+	A*: Found a path from node #261821 to node #419002, 174,7968 minutes in 0 seconds.
+Nodes explorés: 430392
+Nodes marqués: 427866
+Duree: 779
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261822 to node #419003, 112,2059 minutes in 0 seconds.
 Nodes explorés: 403709
 Nodes marqués: 402501
-	A*: Found a path from node #261822 to node #419003, 112,2059 minutes in 11 seconds.
-Nodes explorés: 372513
-Nodes marqués: 371574
+Duree: 316
+	A*: Found a path from node #261822 to node #419003, 112,2059 minutes in 0 seconds.
+Nodes explorés: 238008
+Nodes marqués: 236170
+Duree: 437
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261823 to node #419004, 111,9312 minutes in 0 seconds.
 Nodes explorés: 401796
 Nodes marqués: 400601
-	A*: Found a path from node #261823 to node #419004, 111,9312 minutes in 11 seconds.
-Nodes explorés: 371410
-Nodes marqués: 370520
+Duree: 295
+	A*: Found a path from node #261823 to node #419004, 111,9312 minutes in 0 seconds.
+Nodes explorés: 235047
+Nodes marqués: 233169
+Duree: 384
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261824 to node #419005, 111,9680 minutes in 0 seconds.
 Nodes explorés: 401825
 Nodes marqués: 400629
-	A*: Found a path from node #261824 to node #419005, 111,9680 minutes in 11 seconds.
-Nodes explorés: 371446
-Nodes marqués: 370559
+Duree: 303
+	A*: Found a path from node #261824 to node #419005, 111,9680 minutes in 0 seconds.
+Nodes explorés: 235086
+Nodes marqués: 233190
+Duree: 431
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261825 to node #419006, 111,8241 minutes in 0 seconds.
 Nodes explorés: 401889
 Nodes marqués: 400698
-	A*: Found a path from node #261825 to node #419006, 111,8241 minutes in 11 seconds.
-Nodes explorés: 371558
-Nodes marqués: 370669
+Duree: 339
+	A*: Found a path from node #261825 to node #419006, 111,8241 minutes in 0 seconds.
+Nodes explorés: 234936
+Nodes marqués: 233053
+Duree: 408
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261826 to node #419007, 112,4577 minutes in 0 seconds.
 Nodes explorés: 404539
 Nodes marqués: 403344
-	A*: Found a path from node #261826 to node #419007, 112,4577 minutes in 11 seconds.
-Nodes explorés: 373181
-Nodes marqués: 372290
+Duree: 346
+	A*: Found a path from node #261826 to node #419007, 112,4577 minutes in 0 seconds.
+Nodes explorés: 238896
+Nodes marqués: 237064
+Duree: 431
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261827 to node #419008, 80,1581 minutes in 0 seconds.
 Nodes explorés: 290808
 Nodes marqués: 289231
-	A*: Found a path from node #261827 to node #419008, 80,1581 minutes in 7 seconds.
-Nodes explorés: 243894
-Nodes marqués: 241829
+Duree: 237
+	A*: Found a path from node #261827 to node #419008, 80,1581 minutes in 0 seconds.
+Nodes explorés: 112447
+Nodes marqués: 110294
+Duree: 196
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261828 to node #419009, 80,0928 minutes in 0 seconds.
 Nodes explorés: 290401
 Nodes marqués: 288809
-	A*: Found a path from node #261828 to node #419009, 80,0928 minutes in 7 seconds.
-Nodes explorés: 243439
-Nodes marqués: 241325
+Duree: 286
+	A*: Found a path from node #261828 to node #419009, 80,0928 minutes in 0 seconds.
+Nodes explorés: 111848
+Nodes marqués: 109712
+Duree: 204
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261829 to node #419010, 79,5101 minutes in 0 seconds.
 Nodes explorés: 291089
 Nodes marqués: 289475
-	A*: Found a path from node #261829 to node #419010, 79,5101 minutes in 7 seconds.
-Nodes explorés: 244152
-Nodes marqués: 242118
+Duree: 266
+	A*: Found a path from node #261829 to node #419010, 79,5101 minutes in 0 seconds.
+Nodes explorés: 112798
+Nodes marqués: 110652
+Duree: 210
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261830 to node #419011, 79,9956 minutes in 0 seconds.
 Nodes explorés: 290793
 Nodes marqués: 289216
-	A*: Found a path from node #261830 to node #419011, 79,9956 minutes in 7 seconds.
-Nodes explorés: 243875
-Nodes marqués: 241811
+Duree: 242
+	A*: Found a path from node #261830 to node #419011, 79,9956 minutes in 0 seconds.
+Nodes explorés: 112487
+Nodes marqués: 110323
+Duree: 190
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261831 to node #419012, 80,0937 minutes in 0 seconds.
 Nodes explorés: 290149
 Nodes marqués: 288559
-	A*: Found a path from node #261831 to node #419012, 80,0937 minutes in 7 seconds.
-Nodes explorés: 243137
-Nodes marqués: 241006
+Duree: 228
+	A*: Found a path from node #261831 to node #419012, 80,0937 minutes in 0 seconds.
+Nodes explorés: 111498
+Nodes marqués: 109363
+Duree: 211
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261832 to node #419013, 80,6738 minutes in 0 seconds.
 Nodes explorés: 290673
 Nodes marqués: 289103
-	A*: Found a path from node #261832 to node #419013, 80,6738 minutes in 7 seconds.
-Nodes explorés: 243769
-Nodes marqués: 241690
+Duree: 275
+	A*: Found a path from node #261832 to node #419013, 80,6738 minutes in 0 seconds.
+Nodes explorés: 112341
+Nodes marqués: 110196
+Duree: 213
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261833 to node #419014, 74,7244 minutes in 0 seconds.
 Nodes explorés: 237213
 Nodes marqués: 235287
-	A*: Found a path from node #261833 to node #419014, 74,7244 minutes in 5 seconds.
-Nodes explorés: 187909
-Nodes marqués: 185590
+Duree: 238
+	A*: Found a path from node #261833 to node #419014, 74,7244 minutes in 0 seconds.
+Nodes explorés: 76381
+Nodes marqués: 74701
+Duree: 136
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261834 to node #419015, 74,7919 minutes in 0 seconds.
 Nodes explorés: 227211
 Nodes marqués: 225270
-	A*: Found a path from node #261834 to node #419015, 74,7919 minutes in 5 seconds.
-Nodes explorés: 176914
-Nodes marqués: 174682
+Duree: 205
+	A*: Found a path from node #261834 to node #419015, 74,7919 minutes in 0 seconds.
+Nodes explorés: 67131
+Nodes marqués: 65512
+Duree: 120
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261835 to node #419016, 62,1805 minutes in 0 seconds.
 Nodes explorés: 192027
 Nodes marqués: 189811
-	A*: Found a path from node #261835 to node #419016, 62,1805 minutes in 3 seconds.
-Nodes explorés: 129999
-Nodes marqués: 127717
+Duree: 177
+	A*: Found a path from node #261835 to node #419016, 62,1805 minutes in 0 seconds.
+Nodes explorés: 56156
+Nodes marqués: 54610
+Duree: 101
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261836 to node #419017, 62,6061 minutes in 0 seconds.
 Nodes explorés: 196707
 Nodes marqués: 194496
-	A*: Found a path from node #261836 to node #419017, 62,6061 minutes in 4 seconds.
-Nodes explorés: 134794
-Nodes marqués: 132558
+Duree: 189
+	A*: Found a path from node #261836 to node #419017, 62,6061 minutes in 0 seconds.
+Nodes explorés: 60544
+Nodes marqués: 58854
+Duree: 102
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261837 to node #419018, 59,1736 minutes in 0 seconds.
 Nodes explorés: 157157
 Nodes marqués: 155108
-	A*: Found a path from node #261837 to node #419018, 59,1736 minutes in 3 seconds.
-Nodes explorés: 116161
-Nodes marqués: 114323
+Duree: 132
+	A*: Found a path from node #261837 to node #419018, 59,1736 minutes in 0 seconds.
+Nodes explorés: 49805
+Nodes marqués: 48230
+Duree: 80
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261838 to node #419019, 60,9765 minutes in 0 seconds.
 Nodes explorés: 161792
 Nodes marqués: 159731
-	A*: Found a path from node #261838 to node #419019, 60,9765 minutes in 3 seconds.
-Nodes explorés: 120235
-Nodes marqués: 118380
+Duree: 130
+	A*: Found a path from node #261838 to node #419019, 60,9765 minutes in 0 seconds.
+Nodes explorés: 53908
+Nodes marqués: 52358
+Duree: 85
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261839 to node #419020, 60,6754 minutes in 0 seconds.
 Nodes explorés: 159660
 Nodes marqués: 157593
-	A*: Found a path from node #261839 to node #419020, 60,6754 minutes in 3 seconds.
-Nodes explorés: 118470
-Nodes marqués: 116617
+Duree: 120
+	A*: Found a path from node #261839 to node #419020, 60,6754 minutes in 0 seconds.
+Nodes explorés: 52491
+Nodes marqués: 50885
+Duree: 89
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261840 to node #419021, 60,5460 minutes in 0 seconds.
 Nodes explorés: 159169
 Nodes marqués: 157111
-	A*: Found a path from node #261840 to node #419021, 60,5460 minutes in 3 seconds.
-Nodes explorés: 118175
-Nodes marqués: 116333
+Duree: 129
+	A*: Found a path from node #261840 to node #419021, 60,5460 minutes in 0 seconds.
+Nodes explorés: 52310
+Nodes marqués: 50698
+Duree: 91
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261841 to node #419022, 71,0589 minutes in 0 seconds.
 Nodes explorés: 201010
 Nodes marqués: 199053
-	A*: Found a path from node #261841 to node #419022, 71,0589 minutes in 4 seconds.
-Nodes explorés: 151526
-Nodes marqués: 149502
+Duree: 172
+	A*: Found a path from node #261841 to node #419022, 71,0589 minutes in 0 seconds.
+Nodes explorés: 56332
+Nodes marqués: 54693
+Duree: 95
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261842 to node #419023, 68,4257 minutes in 0 seconds.
 Nodes explorés: 178698
 Nodes marqués: 176915
-	A*: Found a path from node #261842 to node #419023, 68,4257 minutes in 3 seconds.
-Nodes explorés: 127025
-Nodes marqués: 124798
+Duree: 142
+	A*: Found a path from node #261842 to node #419023, 68,4257 minutes in 0 seconds.
+Nodes explorés: 43935
+Nodes marqués: 42402
+Duree: 71
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261843 to node #419024, 69,2087 minutes in 0 seconds.
 Nodes explorés: 195864
 Nodes marqués: 194201
-	A*: Found a path from node #261843 to node #419024, 69,2087 minutes in 4 seconds.
-Nodes explorés: 149049
-Nodes marqués: 146899
+Duree: 175
+	A*: Found a path from node #261843 to node #419024, 69,2087 minutes in 0 seconds.
+Nodes explorés: 49035
+Nodes marqués: 47429
+Duree: 82
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261844 to node #419025, 69,8574 minutes in 0 seconds.
 Nodes explorés: 197128
 Nodes marqués: 195364
-	A*: Found a path from node #261844 to node #419025, 69,8574 minutes in 4 seconds.
-Nodes explorés: 150935
-Nodes marqués: 148972
+Duree: 152
+	A*: Found a path from node #261844 to node #419025, 69,8574 minutes in 0 seconds.
+Nodes explorés: 51618
+Nodes marqués: 49945
+Duree: 82
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261845 to node #419026, 69,1594 minutes in 0 seconds.
 Nodes explorés: 196629
 Nodes marqués: 194872
-	A*: Found a path from node #261845 to node #419026, 69,1594 minutes in 4 seconds.
-Nodes explorés: 149873
-Nodes marqués: 147935
+Duree: 165
+	A*: Found a path from node #261845 to node #419026, 69,1594 minutes in 0 seconds.
+Nodes explorés: 52074
+Nodes marqués: 50448
+Duree: 89
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261846 to node #419027, 68,2087 minutes in 0 seconds.
 Nodes explorés: 192925
 Nodes marqués: 191278
-	A*: Found a path from node #261846 to node #419027, 68,2087 minutes in 4 seconds.
-Nodes explorés: 146110
-Nodes marqués: 144044
+Duree: 141
+	A*: Found a path from node #261846 to node #419027, 68,2087 minutes in 0 seconds.
+Nodes explorés: 49608
+Nodes marqués: 47931
+Duree: 79
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261847 to node #419028, 180,6846 minutes in 0 seconds.
 Nodes explorés: 608728
 Nodes marqués: 608165
-	A*: Found a path from node #261847 to node #419028, 180,6846 minutes in 17 seconds.
-Nodes explorés: 599698
-Nodes marqués: 598953
+Duree: 478
+	A*: Found a path from node #261847 to node #419028, 180,6846 minutes in 0 seconds.
+Nodes explorés: 466477
+Nodes marqués: 464240
+Duree: 881
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261848 to node #419029, 180,8358 minutes in 0 seconds.
 Nodes explorés: 609644
 Nodes marqués: 609071
-	A*: Found a path from node #261848 to node #419029, 180,8358 minutes in 17 seconds.
-Nodes explorés: 600892
-Nodes marqués: 600183
+Duree: 483
+	A*: Found a path from node #261848 to node #419029, 180,8358 minutes in 0 seconds.
+Nodes explorés: 468854
+Nodes marqués: 466710
+Duree: 871
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261849 to node #419030, 181,2814 minutes in 0 seconds.
 Nodes explorés: 607677
 Nodes marqués: 607116
-	A*: Found a path from node #261849 to node #419030, 181,2814 minutes in 17 seconds.
-Nodes explorés: 598341
-Nodes marqués: 597614
+Duree: 471
+	A*: Found a path from node #261849 to node #419030, 181,2814 minutes in 0 seconds.
+Nodes explorés: 464301
+Nodes marqués: 462062
+Duree: 844
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261850 to node #419031, 183,1920 minutes in 0 seconds.
 Nodes explorés: 608104
 Nodes marqués: 607544
-	A*: Found a path from node #261850 to node #419031, 183,1920 minutes in 18 seconds.
-Nodes explorés: 598760
-Nodes marqués: 598053
+Duree: 465
+	A*: Found a path from node #261850 to node #419031, 183,1920 minutes in 0 seconds.
+Nodes explorés: 465897
+Nodes marqués: 463728
+Duree: 911
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261851 to node #419032, 164,5576 minutes in 0 seconds.
 Nodes explorés: 595102
 Nodes marqués: 594339
-	A*: Found a path from node #261851 to node #419032, 164,5576 minutes in 17 seconds.
-Nodes explorés: 583448
-Nodes marqués: 582441
+Duree: 520
+	A*: Found a path from node #261851 to node #419032, 164,5576 minutes in 0 seconds.
+Nodes explorés: 396391
+Nodes marqués: 393553
+Duree: 740
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261852 to node #419033, 165,0773 minutes in 0 seconds.
 Nodes explorés: 595297
 Nodes marqués: 594544
-	A*: Found a path from node #261852 to node #419033, 165,0773 minutes in 17 seconds.
-Nodes explorés: 583680
-Nodes marqués: 582700
+Duree: 552
+	A*: Found a path from node #261852 to node #419033, 165,0773 minutes in 0 seconds.
+Nodes explorés: 397560
+Nodes marqués: 394746
+Duree: 751
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261853 to node #419034, 173,0823 minutes in 0 seconds.
 Nodes explorés: 596914
 Nodes marqués: 596190
-	A*: Found a path from node #261853 to node #419034, 173,0823 minutes in 17 seconds.
-Nodes explorés: 586160
-Nodes marqués: 585213
+Duree: 489
+	A*: Found a path from node #261853 to node #419034, 173,0823 minutes in 0 seconds.
+Nodes explorés: 434874
+Nodes marqués: 432419
+Duree: 893
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261854 to node #419035, 175,2514 minutes in 0 seconds.
 Nodes explorés: 598525
 Nodes marqués: 597838
-	A*: Found a path from node #261854 to node #419035, 175,2514 minutes in 17 seconds.
-Nodes explorés: 588575
-Nodes marqués: 587652
+Duree: 525
+	A*: Found a path from node #261854 to node #419035, 175,2514 minutes in 0 seconds.
+Nodes explorés: 441741
+Nodes marqués: 439496
+Duree: 919
 
 	Map: Midi-Pyrénées 
 	Disjkstra: Found a path from node #261855 to node #419036, 175,8955 minutes in 0 seconds.
 Nodes explorés: 599647
 Nodes marqués: 598904
-	A*: Found a path from node #261855 to node #419036, 175,8955 minutes in 18 seconds.
-Nodes explorés: 589807
-Nodes marqués: 588940
+Duree: 571
+	A*: Found a path from node #261855 to node #419036, 175,8955 minutes in 0 seconds.
+Nodes explorés: 445211
+Nodes marqués: 442958
+Duree: 915
 

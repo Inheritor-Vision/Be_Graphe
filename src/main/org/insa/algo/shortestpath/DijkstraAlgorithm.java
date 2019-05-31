@@ -8,6 +8,9 @@ public class DijkstraAlgorithm extends ShortestPathAlgorithm {
 	
 	public int marques = 0;
 	public int explores = 0;
+	public long tempsDeb = 0;
+	public long tempsFin = 0;
+	
     public DijkstraAlgorithm(ShortestPathData data) {
         super(data);
     }
@@ -22,6 +25,7 @@ public class DijkstraAlgorithm extends ShortestPathAlgorithm {
     
     @Override
     protected ShortestPathSolution doRun() {
+    	this.tempsDeb = System.currentTimeMillis();
         ShortestPathData data = getInputData();
         ShortestPathSolution solution = null;
         Graph graph = data.getGraph() ;
@@ -111,6 +115,7 @@ public class DijkstraAlgorithm extends ShortestPathAlgorithm {
         }else {
         	solution = new ShortestPathSolution(data, Status.OPTIMAL, new Path(graph,data.getDestination()));
         }
+        this.tempsFin = System.currentTimeMillis() - this.tempsDeb;
         return solution;
     }
 

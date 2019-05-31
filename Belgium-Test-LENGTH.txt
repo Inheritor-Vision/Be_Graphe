@@ -2,317 +2,397 @@ Test Optimalite:
 
 	Map: Toulouse 
 	Disjkstra: Found a path from node #10307 to node #6226, 8,2670 kilometers in 0 seconds.
+Duree: 45
 	A*: Found a path from node #10307 to node #6226, 8,2670 kilometers in 0 seconds.
+Duree: 29
 
 	Map: Toulouse 
-	Disjkstra: Found a path from node #20371 to node #10512, 15,3456 kilometers in 1 seconds.
+	Disjkstra: Found a path from node #20371 to node #10512, 15,3456 kilometers in 0 seconds.
+Duree: 96
 	A*: Found a path from node #20371 to node #10512, 15,3456 kilometers in 0 seconds.
+Duree: 47
 
 	Map: Belgium 
-	Disjkstra: Found a path from node #863405 to node #922661, 143,0880 minutes in 0 seconds.
-	A*: Found a path from node #863405 to node #922661, 143,0880 minutes in 28 seconds.
+	Disjkstra: Found a path from node #863405 to node #922661, 143,0880 minutes in 3 seconds.
+	A*: Found a path from node #863405 to node #922661, 143,0880 minutes in 2 seconds.
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384731 to node #681851, 180,5025 kilometers in 0 seconds.
 Nodes explorés: 927915
 Nodes marqués: 927493
-	A*: Found a path from node #384731 to node #681851, 180,5025 kilometers in 10 seconds.
+Duree: 600
+	A*: Found a path from node #384731 to node #681851, 180,5025 kilometers in 0 seconds.
 Nodes explorés: 367434
 Nodes marqués: 365923
+Duree: 607
 
 	Map: Belgium 
-	Disjkstra: Found a path from node #384732 to node #681852, 176,3338 kilometers in 0 seconds.
+	Disjkstra: Found a path from node #384732 to node #681852, 176,3338 kilometers in 2 seconds.
 Nodes explorés: 924969
 Nodes marqués: 924557
-	A*: Found a path from node #384732 to node #681852, 176,3338 kilometers in 10 seconds.
+Duree: 2362
+	A*: Found a path from node #384732 to node #681852, 176,3338 kilometers in 0 seconds.
 Nodes explorés: 347313
 Nodes marqués: 345629
+Duree: 581
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384733 to node #681853, 176,8458 kilometers in 0 seconds.
 Nodes explorés: 925260
 Nodes marqués: 924803
-	A*: Found a path from node #384733 to node #681853, 176,2006 kilometers in 10 seconds.
+Duree: 696
+	A*: Found a path from node #384733 to node #681853, 176,2006 kilometers in 0 seconds.
 Nodes explorés: 347571
 Nodes marqués: 345895
+Duree: 604
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384734 to node #681854, 175,6779 kilometers in 0 seconds.
 Nodes explorés: 922503
 Nodes marqués: 922069
-	A*: Found a path from node #384734 to node #681854, 175,6779 kilometers in 9 seconds.
+Duree: 632
+	A*: Found a path from node #384734 to node #681854, 175,6779 kilometers in 0 seconds.
 Nodes explorés: 344429
 Nodes marqués: 342804
+Duree: 565
 
 	Map: Belgium 
-	Disjkstra: Found a path from node #384735 to node #681855, 175,7888 kilometers in 2 seconds.
+	Disjkstra: Found a path from node #384735 to node #681855, 175,7888 kilometers in 0 seconds.
 Nodes explorés: 927720
 Nodes marqués: 927292
-	A*: Found a path from node #384735 to node #681855, 175,7888 kilometers in 9 seconds.
+Duree: 645
+	A*: Found a path from node #384735 to node #681855, 175,7888 kilometers in 0 seconds.
 Nodes explorés: 319702
 Nodes marqués: 318134
+Duree: 523
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384736 to node #681856, 174,6683 kilometers in 0 seconds.
 Nodes explorés: 924472
 Nodes marqués: 924043
-	A*: Found a path from node #384736 to node #681856, 174,6683 kilometers in 9 seconds.
+Duree: 623
+	A*: Found a path from node #384736 to node #681856, 174,6683 kilometers in 0 seconds.
 Nodes explorés: 320030
 Nodes marqués: 318497
+Duree: 525
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384737 to node #681857, 173,5236 kilometers in 0 seconds.
 Nodes explorés: 924549
 Nodes marqués: 924113
-	A*: Found a path from node #384737 to node #681857, 173,5236 kilometers in 9 seconds.
+Duree: 635
+	A*: Found a path from node #384737 to node #681857, 173,5236 kilometers in 0 seconds.
 Nodes explorés: 318227
 Nodes marqués: 316644
+Duree: 519
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384738 to node #681858, 160,6347 kilometers in 0 seconds.
 Nodes explorés: 913144
 Nodes marqués: 912596
-	A*: Found a path from node #384738 to node #681858, 160,6347 kilometers in 5 seconds.
+Duree: 635
+	A*: Found a path from node #384738 to node #681858, 160,6347 kilometers in 0 seconds.
 Nodes explorés: 196600
 Nodes marqués: 195010
+Duree: 312
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384739 to node #681859, 48,4843 kilometers in 0 seconds.
 Nodes explorés: 198301
 Nodes marqués: 197373
+Duree: 137
 	A*: Found a path from node #384739 to node #681859, 48,4843 kilometers in 0 seconds.
 Nodes explorés: 15088
 Nodes marqués: 14709
+Duree: 26
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384740 to node #681860, 48,5223 kilometers in 0 seconds.
 Nodes explorés: 198596
 Nodes marqués: 197660
+Duree: 138
 	A*: Found a path from node #384740 to node #681860, 48,5223 kilometers in 0 seconds.
 Nodes explorés: 15132
 Nodes marqués: 14750
+Duree: 25
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384741 to node #681861, 48,5477 kilometers in 0 seconds.
 Nodes explorés: 198757
 Nodes marqués: 197828
+Duree: 145
 	A*: Found a path from node #384741 to node #681861, 48,5477 kilometers in 0 seconds.
 Nodes explorés: 15167
 Nodes marqués: 14784
+Duree: 25
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384742 to node #681862, 44,1429 kilometers in 0 seconds.
 Nodes explorés: 136704
 Nodes marqués: 135863
+Duree: 93
 	A*: Found a path from node #384742 to node #681862, 44,1429 kilometers in 0 seconds.
 Nodes explorés: 10347
 Nodes marqués: 10026
+Duree: 18
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384743 to node #681863, 41,6756 kilometers in 0 seconds.
 Nodes explorés: 116902
 Nodes marqués: 116062
+Duree: 80
 	A*: Found a path from node #384743 to node #681863, 41,6756 kilometers in 0 seconds.
 Nodes explorés: 9277
 Nodes marqués: 9022
+Duree: 17
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384744 to node #681864, 61,2873 kilometers in 0 seconds.
 Nodes explorés: 457703
 Nodes marqués: 456304
-	A*: Found a path from node #384744 to node #681864, 61,2873 kilometers in 1 seconds.
+Duree: 324
+	A*: Found a path from node #384744 to node #681864, 61,2873 kilometers in 0 seconds.
 Nodes explorés: 52432
 Nodes marqués: 51408
+Duree: 81
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384745 to node #681865, 61,4286 kilometers in 0 seconds.
 Nodes explorés: 457596
 Nodes marqués: 455912
-	A*: Found a path from node #384745 to node #681865, 61,4286 kilometers in 1 seconds.
+Duree: 332
+	A*: Found a path from node #384745 to node #681865, 61,4286 kilometers in 0 seconds.
 Nodes explorés: 54950
 Nodes marqués: 54008
+Duree: 85
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384746 to node #681866, 62,1284 kilometers in 0 seconds.
 Nodes explorés: 462837
 Nodes marqués: 461437
-	A*: Found a path from node #384746 to node #681866, 62,1284 kilometers in 1 seconds.
+Duree: 331
+	A*: Found a path from node #384746 to node #681866, 62,1284 kilometers in 0 seconds.
 Nodes explorés: 52658
 Nodes marqués: 51635
+Duree: 83
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384747 to node #681867, 67,5538 kilometers in 0 seconds.
 Nodes explorés: 526865
 Nodes marqués: 525474
-	A*: Found a path from node #384747 to node #681867, 67,5538 kilometers in 1 seconds.
+Duree: 382
+	A*: Found a path from node #384747 to node #681867, 67,5538 kilometers in 0 seconds.
 Nodes explorés: 58589
 Nodes marqués: 57464
+Duree: 89
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384748 to node #681868, 67,5171 kilometers in 0 seconds.
 Nodes explorés: 526650
 Nodes marqués: 525248
-	A*: Found a path from node #384748 to node #681868, 67,5171 kilometers in 1 seconds.
+Duree: 380
+	A*: Found a path from node #384748 to node #681868, 67,5171 kilometers in 0 seconds.
 Nodes explorés: 58213
 Nodes marqués: 57117
+Duree: 96
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384749 to node #681869, 104,1112 kilometers in 0 seconds.
 Nodes explorés: 637666
 Nodes marqués: 636416
-	A*: Found a path from node #384749 to node #681869, 104,1112 kilometers in 4 seconds.
+Duree: 439
+	A*: Found a path from node #384749 to node #681869, 104,1112 kilometers in 0 seconds.
 Nodes explorés: 172467
 Nodes marqués: 171124
+Duree: 280
 
 	Map: Belgium 
 	Disjkstra: No path found from node #384750 to node #681870 in 0 seconds.
 Nodes explorés: 1021082
 Nodes marqués: 1021083
-	A*: No path found from node #384750 to node #681870 in 26 seconds.
+Duree: 746
+	A*: No path found from node #384750 to node #681870 in 1 seconds.
 Nodes explorés: 1021082
 Nodes marqués: 1021083
+Duree: 1553
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384751 to node #681871, 151,4884 kilometers in 0 seconds.
 Nodes explorés: 491316
 Nodes marqués: 490276
-	A*: Found a path from node #384751 to node #681871, 151,4884 kilometers in 2 seconds.
+Duree: 349
+	A*: Found a path from node #384751 to node #681871, 151,4884 kilometers in 0 seconds.
 Nodes explorés: 92311
 Nodes marqués: 91013
+Duree: 153
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384752 to node #681872, 152,5233 kilometers in 0 seconds.
 Nodes explorés: 507130
 Nodes marqués: 506059
-	A*: Found a path from node #384752 to node #681872, 152,5233 kilometers in 2 seconds.
+Duree: 339
+	A*: Found a path from node #384752 to node #681872, 152,5233 kilometers in 0 seconds.
 Nodes explorés: 95248
 Nodes marqués: 93948
+Duree: 151
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384753 to node #681873, 154,2827 kilometers in 0 seconds.
 Nodes explorés: 506657
 Nodes marqués: 505615
-	A*: Found a path from node #384753 to node #681873, 154,2827 kilometers in 2 seconds.
+Duree: 334
+	A*: Found a path from node #384753 to node #681873, 154,2827 kilometers in 0 seconds.
 Nodes explorés: 95147
 Nodes marqués: 93855
+Duree: 151
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384754 to node #681874, 132,2495 kilometers in 0 seconds.
 Nodes explorés: 334282
 Nodes marqués: 333575
-	A*: Found a path from node #384754 to node #681874, 132,2495 kilometers in 1 seconds.
+Duree: 217
+	A*: Found a path from node #384754 to node #681874, 132,2495 kilometers in 0 seconds.
 Nodes explorés: 43573
 Nodes marqués: 42312
+Duree: 71
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384755 to node #681875, 168,4037 kilometers in 0 seconds.
 Nodes explorés: 637710
 Nodes marqués: 637134
-	A*: Found a path from node #384755 to node #681875, 168,4037 kilometers in 3 seconds.
+Duree: 426
+	A*: Found a path from node #384755 to node #681875, 168,4037 kilometers in 0 seconds.
 Nodes explorés: 112655
 Nodes marqués: 110767
+Duree: 178
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384756 to node #681876, 167,4825 kilometers in 0 seconds.
 Nodes explorés: 637394
 Nodes marqués: 636818
-	A*: Found a path from node #384756 to node #681876, 167,4825 kilometers in 2 seconds.
+Duree: 418
+	A*: Found a path from node #384756 to node #681876, 167,4825 kilometers in 0 seconds.
 Nodes explorés: 111678
 Nodes marqués: 109797
+Duree: 177
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384757 to node #681877, 62,9341 kilometers in 0 seconds.
 Nodes explorés: 477954
 Nodes marqués: 476471
-	A*: Found a path from node #384757 to node #681877, 62,9341 kilometers in 1 seconds.
+Duree: 346
+	A*: Found a path from node #384757 to node #681877, 62,9341 kilometers in 0 seconds.
 Nodes explorés: 49995
 Nodes marqués: 49151
+Duree: 77
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384758 to node #681878, 51,9659 kilometers in 0 seconds.
 Nodes explorés: 354671
 Nodes marqués: 353410
+Duree: 241
 	A*: Found a path from node #384758 to node #681878, 51,9659 kilometers in 0 seconds.
 Nodes explorés: 19180
 Nodes marqués: 18510
+Duree: 32
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384759 to node #681879, 51,9864 kilometers in 0 seconds.
 Nodes explorés: 354981
 Nodes marqués: 353770
+Duree: 240
 	A*: Found a path from node #384759 to node #681879, 51,9864 kilometers in 0 seconds.
 Nodes explorés: 19386
 Nodes marqués: 18723
+Duree: 32
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384760 to node #681880, 62,2645 kilometers in 0 seconds.
 Nodes explorés: 469867
 Nodes marqués: 468408
-	A*: Found a path from node #384760 to node #681880, 62,2645 kilometers in 1 seconds.
+Duree: 328
+	A*: Found a path from node #384760 to node #681880, 62,2645 kilometers in 0 seconds.
 Nodes explorés: 48946
 Nodes marqués: 48136
+Duree: 75
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384761 to node #681881, 67,6684 kilometers in 0 seconds.
 Nodes explorés: 527767
 Nodes marqués: 526384
-	A*: Found a path from node #384761 to node #681881, 67,6684 kilometers in 1 seconds.
+Duree: 384
+	A*: Found a path from node #384761 to node #681881, 67,6684 kilometers in 0 seconds.
 Nodes explorés: 57072
 Nodes marqués: 55929
+Duree: 87
 
 	Map: Belgium 
 	Disjkstra: No path found from node #384762 to node #681882 in 0 seconds.
 Nodes explorés: 1
 Nodes marqués: 2
+Duree: 4
 	A*: No path found from node #384762 to node #681882 in 0 seconds.
 Nodes explorés: 1
 Nodes marqués: 2
+Duree: 4
 
 	Map: Belgium 
 	Disjkstra: No path found from node #384763 to node #681883 in 0 seconds.
 Nodes explorés: 1
 Nodes marqués: 2
+Duree: 4
 	A*: No path found from node #384763 to node #681883 in 0 seconds.
 Nodes explorés: 1
 Nodes marqués: 2
+Duree: 4
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384764 to node #681884, 68,5402 kilometers in 0 seconds.
 Nodes explorés: 536085
 Nodes marqués: 534726
-	A*: Found a path from node #384764 to node #681884, 68,5402 kilometers in 1 seconds.
+Duree: 387
+	A*: Found a path from node #384764 to node #681884, 68,5402 kilometers in 0 seconds.
 Nodes explorés: 60628
 Nodes marqués: 59543
+Duree: 92
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384765 to node #681885, 68,5297 kilometers in 0 seconds.
 Nodes explorés: 535916
 Nodes marqués: 534558
-	A*: Found a path from node #384765 to node #681885, 68,5297 kilometers in 1 seconds.
+Duree: 403
+	A*: Found a path from node #384765 to node #681885, 68,5297 kilometers in 0 seconds.
 Nodes explorés: 58673
 Nodes marqués: 57601
+Duree: 89
 
 	Map: Belgium 
 	Disjkstra: No path found from node #384766 to node #681886 in 0 seconds.
 Nodes explorés: 1
 Nodes marqués: 2
+Duree: 4
 	A*: No path found from node #384766 to node #681886 in 0 seconds.
 Nodes explorés: 1
 Nodes marqués: 2
+Duree: 4
 
 	Map: Belgium 
 	Disjkstra: No path found from node #384767 to node #681887 in 0 seconds.
 Nodes explorés: 1
 Nodes marqués: 2
+Duree: 4
 	A*: No path found from node #384767 to node #681887 in 0 seconds.
 Nodes explorés: 1
 Nodes marqués: 2
+Duree: 4
 
 	Map: Belgium 
 	Disjkstra: Found a path from node #384768 to node #681888, 103,3042 kilometers in 0 seconds.
 Nodes explorés: 789301
 Nodes marqués: 788471
-	A*: Found a path from node #384768 to node #681888, 103,3042 kilometers in 1 seconds.
+Duree: 564
+	A*: Found a path from node #384768 to node #681888, 103,3042 kilometers in 0 seconds.
 Nodes explorés: 77236
 Nodes marqués: 76340
+Duree: 118
 
